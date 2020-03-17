@@ -6,10 +6,6 @@ html {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
 }
 
 code {
@@ -17,10 +13,22 @@ code {
     monospace;
 }
 
+#root {
+}
+
 .quote {
   text-align: center;
-  padding: 4em;
-  margin: 4em;
+  height: 100vh;
+  padding: 0 4em;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quoteContent {
+  padding: 2em;
   border-radius: 5px;
-  background-color: lightgray;
+  background-color: rgba(255, 255, 255, 0.171);
 }
