@@ -7,8 +7,9 @@ const Quote = ({ quote }) => {
         <strong>{quote.quote}</strong>
       </p>
       <p>
-        <i>{quote.author}</i>- {quote.date}
+        <i>{quote.author}</i>
       </p>
+      <p>{quote.date}</p>
     </div>
   )
 }
