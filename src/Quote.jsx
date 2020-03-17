@@ -9,7 +9,6 @@ const Quote = ({ quote }) => {
       <p>
         <i>{quote.author}</i>
       </p>
-      <p>{quote.date}</p>
     </div>
   )
 }
