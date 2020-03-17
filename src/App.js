@@ -1,26 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react'
+import Quote from './Quote'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const [quote, setQuote] = useState([])
+
+  async function getQOD() {
+    const response = await fetch('https://quotes.rest/qod.json')
+    const json = await response.json()
+    setQuote(json)
+  }
+
+  if (quote == '') {
+    getQOD()
+  }
+
+  const quoteElement = () => {
+    if (quote == '') {
+      return <h1>No Quote Yet</h1>
+    } else {
+      return <Quote quote={quote.contents.quotes[0]}></Quote>
+    }
+  }
+
+  return <div className="App">{quoteElement()}</div>
 }
 
-export default App;
+export default App
