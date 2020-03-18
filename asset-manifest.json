@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/quote-of-the-day/static/css/main.76bc6ec4.chunk.css",
+    "main.js": "/quote-of-the-day/static/js/main.0307e99e.chunk.js",
+    "main.js.map": "/quote-of-the-day/static/js/main.0307e99e.chunk.js.map",
+    "runtime-main.js": "/quote-of-the-day/static/js/runtime-main.c96dc15a.js",
+    "runtime-main.js.map": "/quote-of-the-day/static/js/runtime-main.c96dc15a.js.map",
+    "static/js/2.ab3a55cd.chunk.js": "/quote-of-the-day/static/js/2.ab3a55cd.chunk.js",
+    "static/js/2.ab3a55cd.chunk.js.map": "/quote-of-the-day/static/js/2.ab3a55cd.chunk.js.map",
+    "index.html": "/quote-of-the-day/index.html",
+    "precache-manifest.33d682ee329e60b2612cd8fa07a9e027.js": "/quote-of-the-day/precache-manifest.33d682ee329e60b2612cd8fa07a9e027.js",
+    "service-worker.js": "/quote-of-the-day/service-worker.js",
+    "static/css/main.76bc6ec4.chunk.css.map": "/quote-of-the-day/static/css/main.76bc6ec4.chunk.css.map",
+    "static/js/2.ab3a55cd.chunk.js.LICENSE.txt": "/quote-of-the-day/static/js/2.ab3a55cd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c96dc15a.js",
+    "static/js/2.ab3a55cd.chunk.js",
+    "static/css/main.76bc6ec4.chunk.css",
+    "static/js/main.0307e99e.chunk.js"
+  ]
+}
